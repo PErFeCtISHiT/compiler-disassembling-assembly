@@ -1,0 +1,78 @@
+DFA states
+id: 1
+type: SIMPLE
+turn :
+a: 4
+b: 2
+c: 
+#: 
+
+id: 2
+type: SIMPLE
+turn :
+a: 3
+b: 8
+c: 
+#: 
+
+id: 3
+type: SIMPLE
+turn :
+a: 3
+b: 2
+c: 
+#: 
+
+id: 4
+type: ACCEPT
+turn :
+a: 3
+b: 2
+c: 
+#: 
+
+id: 5
+type: START
+turn :
+a: 6
+b: 7
+c: 
+#: 
+
+id: 6
+type: SIMPLE
+turn :
+a: 1
+b: 2
+c: 
+#: 
+
+id: 7
+type: SIMPLE
+turn :
+a: 3
+b: 7
+c: 
+#: 
+
+id: 8
+type: ACCEPT
+turn :
+a: 3
+b: 7
+c: 
+#: 
+
+
+tokens on stream 1a
+abb
+aaabb
+aaa
+
+tokens on stream 1b
+abb
+aaabb
+aaa
+aaaabb
+ababbb
+
