@@ -1,0 +1,9 @@
+if与else之间为空
+reduce list:
+S->a
+S->a
+S->iSeS
+
+parse tree:
+S->iSeS	
+S->a	S->a	

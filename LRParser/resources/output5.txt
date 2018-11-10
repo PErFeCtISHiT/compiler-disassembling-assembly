@@ -1,0 +1,14 @@
+不该出现在这里的符号b
+不该出现在这里的符号a
+reduce list:
+S->a
+S->a
+S->iSeS
+S->a
+S->iS
+S->S;S
+
+parse tree:
+S->S;S	
+S->iS	S->iSeS	
+S->a	S->a	S->a	

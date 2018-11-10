@@ -1,0 +1,12 @@
+reduce list:
+S->a
+S->a
+S->iSeS
+S->a
+S->iS
+S->iSeS
+
+parse tree:
+S->iSeS	
+S->iS	S->iSeS	
+S->a	S->a	S->a	
